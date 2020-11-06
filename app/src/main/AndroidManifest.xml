@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BoradcastReceiversDemo">
         
-        <receiver android:name=".MyBR">
+        <!--<receiver android:name=".MyBR" android:exported="true" android:enabled="true">
             <intent-filter android:priority="900">
                 <action android:name="android.intent.action.BATTERY_LOW"/>
                 <action android:name="android.intent.action.AIRPLANE_MODE"/>
                 <action android:name="android.intent.action.WALLPAPER_CHANGED"/>
             </intent-filter>
-        </receiver>
+        </receiver>-->
         
         <activity android:name=".MainActivity">
             <intent-filter>
